@@ -1,0 +1,72 @@
+/*COLOR PALETTE
+lightest to darkest
+    #d8f3dc
+    #95d5b2
+    #52b788
+    #2d6a4f
+    #081c15
+*/
+
+/*PAGE SECTIONS*/
+body {
+    padding: 10px;
+    margin: 0px;
+    background-color: #081c15;
+}
+
+.footer {
+    padding: 30%;
+}
+
+/*TEXT*/
+p {
+    color: #d8f3dc
+}
+li {
+    color: #d8f3dc
+}
+
+.section-head {
+    color: #52b788;
+    font-size: 40px;
+}
+
+.section-sub {
+    color: #52b788;
+    font-size: 25px;
+}
+
+.date {
+    color: #95d5b2;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.name {
+    color: #95d5b2;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1px;
+    text-decoration-style: double;
+}
+
+/*LINKS*/
+.text-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-style: italic;
+    transition: 0.2s ease-out;
+}
+
+.single-link {
+    color: #ffffff;
+    text-decoration: none;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 3px;
+    padding: 6px;
+}
+
+.fake-link {
+    color: #d8f3dc;
+    text-decoration: none;
+}
